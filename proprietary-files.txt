@@ -49,6 +49,10 @@ vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb|39f1d884c5c
 vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb|bf2bec4b1934f7f006ee40359b6186855b400e04
 vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb|49d26f0e6530f3f60dbaaa800378c1e57863965c
 
+# Bluetooth (aptX) - from crosshatch - QP1A.190711.020
+product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
+
 # Camera - from riva - V9.2.4.0.NCKMIEK
 vendor/lib/libchromaflash.so|cf85560822e04014b8950a1abae9c2843069101d
 vendor/lib/libflash_gpio.so|06aafdce226e43855a230d9840e31446b3262611
