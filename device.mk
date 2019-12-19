@@ -282,14 +282,9 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.qcom
+    android.hardware.power@1.2-service-qti
 
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-impl \
-    android.hardware.power@1.0-service
-
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+TARGET_USES_NON_LEGACY_POWERHAL := true
 
 # QCOM
 PRODUCT_COPY_FILES += \
@@ -369,11 +364,16 @@ PRODUCT_COPY_FILES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    telephony-ext
+    ims-ext-common_system \
+    telephony-ext \
+    qti-telephony-hidl-wrapper \
+    qti_telephony_hidl_wrapper.xml \
+    qti-telephony-utils \
+    qti_telephony_utils.xml
 
 PRODUCT_BOOT_JARS += \
-    telephony-ext \
-    ims-ext-common_system
+    ims-ext-common_system \
+    telephony-ext
 
 # Thermal
 PRODUCT_PACKAGES += \
