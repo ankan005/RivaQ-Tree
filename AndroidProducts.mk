@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_riva.mk
+    $(LOCAL_DIR)/xtended_riva.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_riva-userdebug
+    xtended_riva-userdebug
