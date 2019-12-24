@@ -102,6 +102,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
     debug.cpurend.vsync=false \
     debug.gralloc.gfx_ubwc_disable=0 \
+    ro.sf.enable_fb_scaling=1 \
     debug.hwui.use_buffer_age=false \
     debug.sdm.support_writeback=0 \
     debug.sf.disable_backpressure=1 \
@@ -135,6 +136,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Memory optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.sys.fw.bservice_enable=true \
+    ro.vendor.qti.cgroup_follow.enable=true \
     ro.vendor.qti.am.reschedule_service=true
 
 # Perf
