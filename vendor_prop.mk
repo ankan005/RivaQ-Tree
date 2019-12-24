@@ -134,7 +134,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.enc.disable.pq=true \
     vendor.vidc.enc.narrow.searchrange=1
     vendor.video.disable.ubwc=1 \
-    mm.enable.sec.smoothstreaming=true
+    mm.enable.sec.smoothstreaming=true \
+    vendor.display.enable_default_color_mode=0
 
 # Memory optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
